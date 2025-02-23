@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      game_character_Manatee_0: 6918528626069687917
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
