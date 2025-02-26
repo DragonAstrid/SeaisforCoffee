@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4922168171338263650}
   - component: {fileID: 135082447819048140}
-  - component: {fileID: 7967839200246850268}
   - component: {fileID: 1423424499133355666}
+  - component: {fileID: 7967839200246850268}
   - component: {fileID: -696814641229322731}
   m_Layer: 7
   m_Name: Coffee Machine 1
@@ -90,21 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7967839200246850268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3717266426292978288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 883ec482049053641ab381cf42ea49f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnTakeObject:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!61 &1423424499133355666
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -151,6 +136,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7967839200246850268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3717266426292978288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883ec482049053641ab381cf42ea49f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTakeObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -696814641229322731}
+        m_TargetAssemblyTypeName: CoffeeMachine, Assembly-CSharp
+        m_MethodName: RecieveObject
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &-696814641229322731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +187,10 @@ PrefabInstance:
     - target: {fileID: 1335776792480226152, guid: 04d6c19070fa41a458823ba4f0a09fde, type: 3}
       propertyPath: m_Name
       value: Brew Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335776792480226152, guid: 04d6c19070fa41a458823ba4f0a09fde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4014941494309832395, guid: 04d6c19070fa41a458823ba4f0a09fde, type: 3}
       propertyPath: m_LocalScale.x
