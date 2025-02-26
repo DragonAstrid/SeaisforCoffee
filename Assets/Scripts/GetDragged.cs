@@ -8,8 +8,8 @@ public class GetDragged : MonoBehaviour
     [SerializeField]
     private Rigidbody2D rb;
 
-    private bool mouseOver;
-    private bool dragging;
+    public bool mouseOver;
+    public bool dragging;
 
     private Vector2 offset;
     private bool getOffset;
@@ -31,7 +31,12 @@ public class GetDragged : MonoBehaviour
         }
     }
 
-    
+    private void Start()
+    {
+        dragging = false;
+        mouseOver = false;
+    }
+
     private void FixedUpdate()
     {
         if (dragging)

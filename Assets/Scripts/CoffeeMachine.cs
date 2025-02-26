@@ -8,9 +8,20 @@ public class CoffeeMachine : MonoBehaviour
     List<ingredient> ingredients;
 
     [SerializeField]
-    private GameObject BlueCircle;
+    private GameObject TaffyLatte;
+    [SerializeField]
+    private GameObject PufferTea;
+    [SerializeField]
+    private GameObject HotCocoa;
+    [SerializeField]
+    private GameObject TaffyCocoa;
 
-      public void RecieveObject(GameObject g)
+    [SerializeField]
+    private GameManager gameManager;
+
+    private AudioSource audioSource;
+
+    public void RecieveObject(GameObject g)
     {
        ingredient i = g.GetComponent<ingredient>();
         if (i != null) 
@@ -27,20 +38,74 @@ public class CoffeeMachine : MonoBehaviour
     void Awake()
     {
         ingredients = new List<ingredient> ();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void CreateResult()
     {
-        if (ingredients.Any(i => i.type == IngredientType.Red)
-            && ingredients.Any(i => i.type == IngredientType.Green)
+        audioSource.Play();
+
+        if (ingredients.Any(i => i.type == IngredientType.Taffy)
+            && ingredients.Any(i => i.type == IngredientType.KelpMilk)
             )
         {
-            Instantiate(BlueCircle);
+            Instantiate(TaffyLatte);
             ingredients.Clear();
             return;
         }
+        if (ingredients.Any(i => i.type == IngredientType.Taffy)
+           && ingredients.Any(i => i.type == IngredientType.CowMilk)
+           )
+        {
+            Instantiate(TaffyLatte);
+            ingredients.Clear();
+            return;
+        }
+        if (ingredients.Any(i => i.type == IngredientType.Taffy)
+           && ingredients.Any(i => i.type == IngredientType.Chocolate)
+           )
+        {
+            Instantiate(TaffyCocoa);
+            ingredients.Clear();
+            return;
+        }
+        if (ingredients.Any(i => i.type == IngredientType.Pufferfish)
+           && ingredients.Any(i => i.type == IngredientType.KelpMilk)
+           )
+        {
+            Instantiate(PufferTea);
+            ingredients.Clear();
+            return;
 
+        }
+        if (ingredients.Any(i => i.type == IngredientType.Pufferfish)
+           && ingredients.Any(i => i.type == IngredientType.CowMilk)
+           )
+        {
+            Instantiate(PufferTea);
+            ingredients.Clear();
+            return;
+        }
+        if (ingredients.Any(i => i.type == IngredientType.Chocolate)
+           && ingredients.Any(i => i.type == IngredientType.KelpMilk)
+           )
+        {
+            Instantiate(HotCocoa);
+            ingredients.Clear();
+            return;
+        }
+        if (ingredients.Any(i => i.type == IngredientType.Chocolate)
+           && ingredients.Any(i => i.type == IngredientType.CowMilk)
+           )
+        {
+            Instantiate(HotCocoa);
+            ingredients.Clear();
+            return;
+        }
+        ingredients.Clear();
+        gameManager.ResetIngredients();
     }
+
 
 
 }

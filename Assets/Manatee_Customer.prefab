@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -226074407
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6918528626069687917, guid: 3bb34c88ba6cfce4ab3de6b82f7a9162, type: 3}
+  m_Sprite: {fileID: -3537930349627845683, guid: 9d83bfa12037caa4aa244516160db9f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,7 +119,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -165,3 +165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 843b22305a213d84aa52fc201c3341c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Neutral: {fileID: -3537930349627845683, guid: 9d83bfa12037caa4aa244516160db9f0, type: 3}
+  Happy: {fileID: -2495430536201457068, guid: 792ec75f61936094095d1831ec23b262, type: 3}
+  Sad: {fileID: 3774851141981162309, guid: 0be837b02aa2a2845be03dc4113a8c41, type: 3}
+  Dead: {fileID: -5203316406430916000, guid: 3a489c142916d34468b583986c2106c5, type: 3}
+  Order: 2
+  dialogueBox: {fileID: 0}
