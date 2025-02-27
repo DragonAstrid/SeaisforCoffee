@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SeaCoffee_TaffyCocoa_0: -2026183107503930987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

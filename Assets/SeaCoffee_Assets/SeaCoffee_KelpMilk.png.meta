@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SeaCoffee_KelpMilk_0: 9102687576611232953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

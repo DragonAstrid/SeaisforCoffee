@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SeaCoffee_MannateeNeutral_0: -3537930349627845683
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

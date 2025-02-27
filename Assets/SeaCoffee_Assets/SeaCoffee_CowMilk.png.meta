@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SeaCoffee_CowMilk_0: 6238829996584868781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

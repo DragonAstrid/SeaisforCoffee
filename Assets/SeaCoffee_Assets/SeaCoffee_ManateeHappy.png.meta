@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SeaCoffee_ManateeHappy_0: -2495430536201457068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

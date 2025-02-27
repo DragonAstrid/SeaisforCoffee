@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SeaCoffee_Pufferfish_0: 2261744029526828842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

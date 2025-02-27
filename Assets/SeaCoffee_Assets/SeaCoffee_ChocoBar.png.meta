@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SeaCoffee_ChocoBar_0: -1424910750800170784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
