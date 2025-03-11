@@ -1439,6 +1439,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: SadFailLine
+      value: Day ruined.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
       propertyPath: dialogueBox
       value: 
       objectReference: {fileID: 762164473}
@@ -1446,6 +1450,18 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1378324013}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: DeadPoisonLine
+      value: UEGHHHH
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: HappySuccessLine
+      value: BEST PUFFERFISH TEA IN THE OCEAN!!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: NeutralOrderLine
+      value: Pufferfish with kelp milk please.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

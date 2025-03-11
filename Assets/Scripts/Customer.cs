@@ -15,6 +15,15 @@ public class Customer : MonoBehaviour
     private Sprite Dead;
 
     [SerializeField]
+    private string NeutralOrderLine;
+    [SerializeField]
+    private string HappySuccessLine;
+    [SerializeField]
+    private string SadFailLine;
+    [SerializeField]
+    private string DeadPoisonLine;
+
+    [SerializeField]
     private ResultType Order;
 
     [SerializeField]
@@ -35,25 +44,25 @@ public class Customer : MonoBehaviour
             if (r.type == Order)
             {
                 spriteRenderer.sprite = Happy;
-                dialogueBox.text = "BEST PUFFERFISH TEA IN THE OCEAN!!!!";
+                dialogueBox.text = HappySuccessLine;
             }
             else
             {
                 spriteRenderer.sprite = Sad;
-                dialogueBox.text = "Day ruined.";
+                dialogueBox.text = SadFailLine;
                 if (r.type == ResultType.HotCocoa)
                 {
                     spriteRenderer.sprite = Dead;
-                    dialogueBox.text = "UEGHHHH";
+                    dialogueBox.text = DeadPoisonLine;
                 }
             }
         }
     }
 
-    private void Awake()
+    private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        dialogueBox.text = "Pufferfish with kelp milk please.";
+        dialogueBox.text = NeutralOrderLine;
     }
     
    
