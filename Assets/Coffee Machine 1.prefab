@@ -174,8 +174,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 951c3e68ea1bc4642a35d7c08cdc4acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TaffyLatte: {fileID: 8660641123502747729, guid: b56f1cee8e0f72045a0829240a656754, type: 3}
-  PufferTea: {fileID: 991181020233255861, guid: d965795a0ca923c45b84e3f87c0407bc, type: 3}
-  HotCocoa: {fileID: 6098523651082961773, guid: 0fa9b6d284bc42b4aa1e6cd36b71915f, type: 3}
+  TaffyLatteCowMilk: {fileID: 2998364141526849532, guid: 6ffca1412dc904c27a5237c2e33d5d85, type: 3}
+  TaffyLatteKelpMilk: {fileID: 8660641123502747729, guid: b56f1cee8e0f72045a0829240a656754, type: 3}
+  PufferTeaCowMilk: {fileID: 991181020233255861, guid: d965795a0ca923c45b84e3f87c0407bc, type: 3}
+  PufferTeaKelpMilk: {fileID: 5604490233344559385, guid: 84602b279cc754cf59af89d3ee992469, type: 3}
+  HotCocoaCowMilk: {fileID: 6098523651082961773, guid: 0fa9b6d284bc42b4aa1e6cd36b71915f, type: 3}
+  HotCocoaKelpMilk: {fileID: 1142471267239759284, guid: c417fd65c34a84739b3045b94d650190, type: 3}
   TaffyCocoa: {fileID: 7775464205915829675, guid: 11abc8284ba97f9469275f489cfa3292, type: 3}
   gameManager: {fileID: 0}

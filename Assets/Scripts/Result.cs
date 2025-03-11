@@ -4,7 +4,8 @@ using UnityEngine;
 
 public enum ResultType
 {
-   TaffyLatte, TaffyCocoa, PufferTea, HotCocoa
+   TaffyLatteCowMilk, TaffyCocoa, PufferTeaCowMilk, HotCocoaCowMilk,
+   TaffyLatteKelpMilk, PufferTeaKelpMilk, HotCocoaKelpMilk
 }
 
 public class Result : MonoBehaviour

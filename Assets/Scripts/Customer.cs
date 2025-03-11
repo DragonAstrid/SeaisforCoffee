@@ -22,15 +22,15 @@ public class Customer : MonoBehaviour
     private string SadFailLine;
     [SerializeField]
     private string DeadPoisonLine;
+    [SerializeField]
+    private bool isHuman;
 
     [SerializeField]
     private ResultType Order;
 
-    [SerializeField]
-    private TextMeshProUGUI dialogueBox;
+    public TextMeshProUGUI dialogueBox;
 
-    [SerializeField]
-    private GameManager gameManager;
+    public GameManager gameManager;
 
     private SpriteRenderer spriteRenderer;
     public void RecieveObject(GameObject g)
@@ -40,22 +40,43 @@ public class Customer : MonoBehaviour
         {
             r.gameObject.SetActive(false);
             gameManager.ResetIngredients();
+            int scoredifference = 0;
 
             if (r.type == Order)
             {
                 spriteRenderer.sprite = Happy;
                 dialogueBox.text = HappySuccessLine;
+                scoredifference = 1;
             }
             else
             {
                 spriteRenderer.sprite = Sad;
                 dialogueBox.text = SadFailLine;
-                if (r.type == ResultType.HotCocoa)
+                scoredifference = -1;
+                if (isHuman == true)
                 {
-                    spriteRenderer.sprite = Dead;
-                    dialogueBox.text = DeadPoisonLine;
+                    if (r.type == ResultType.PufferTeaCowMilk
+                        || r.type == ResultType.PufferTeaKelpMilk)
+                    {
+                        spriteRenderer.sprite = Dead;
+                        dialogueBox.text = DeadPoisonLine;
+                        scoredifference = -10;
+                    }
+                }
+                else
+                {
+                    if (r.type == ResultType.TaffyLatteCowMilk
+                        || r.type == ResultType.PufferTeaCowMilk
+                        || r.type == ResultType.HotCocoaCowMilk)
+                    {
+                        spriteRenderer.sprite = Dead;
+                        dialogueBox.text = DeadPoisonLine;
+                        scoredifference = -10;
+                    }
+
                 }
             }
+            gameManager.OrderReceived(scoredifference);
         }
     }
 

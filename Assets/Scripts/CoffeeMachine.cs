@@ -8,11 +8,11 @@ public class CoffeeMachine : MonoBehaviour
     List<ingredient> ingredients;
 
     [SerializeField]
-    private GameObject TaffyLatte;
+    private GameObject TaffyLatteCowMilk, TaffyLatteKelpMilk;
     [SerializeField]
-    private GameObject PufferTea;
+    private GameObject PufferTeaCowMilk, PufferTeaKelpMilk;
     [SerializeField]
-    private GameObject HotCocoa;
+    private GameObject HotCocoaCowMilk, HotCocoaKelpMilk;
     [SerializeField]
     private GameObject TaffyCocoa;
 
@@ -49,7 +49,7 @@ public class CoffeeMachine : MonoBehaviour
             && ingredients.Any(i => i.type == IngredientType.KelpMilk)
             )
         {
-            Instantiate(TaffyLatte);
+            Instantiate(TaffyLatteKelpMilk);
             ingredients.Clear();
             return;
         }
@@ -57,7 +57,7 @@ public class CoffeeMachine : MonoBehaviour
            && ingredients.Any(i => i.type == IngredientType.CowMilk)
            )
         {
-            Instantiate(TaffyLatte);
+            Instantiate(TaffyLatteCowMilk);
             ingredients.Clear();
             return;
         }
@@ -73,7 +73,7 @@ public class CoffeeMachine : MonoBehaviour
            && ingredients.Any(i => i.type == IngredientType.KelpMilk)
            )
         {
-            Instantiate(PufferTea);
+            Instantiate(PufferTeaKelpMilk);
             ingredients.Clear();
             return;
 
@@ -82,7 +82,7 @@ public class CoffeeMachine : MonoBehaviour
            && ingredients.Any(i => i.type == IngredientType.CowMilk)
            )
         {
-            Instantiate(PufferTea);
+            Instantiate(PufferTeaCowMilk);
             ingredients.Clear();
             return;
         }
@@ -90,7 +90,7 @@ public class CoffeeMachine : MonoBehaviour
            && ingredients.Any(i => i.type == IngredientType.KelpMilk)
            )
         {
-            Instantiate(HotCocoa);
+            Instantiate(HotCocoaKelpMilk);
             ingredients.Clear();
             return;
         }
@@ -98,7 +98,7 @@ public class CoffeeMachine : MonoBehaviour
            && ingredients.Any(i => i.type == IngredientType.CowMilk)
            )
         {
-            Instantiate(HotCocoa);
+            Instantiate(HotCocoaCowMilk);
             ingredients.Clear();
             return;
         }

@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1534931159107774528}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.51, y: -0.93, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4200639, y: 0.4200639, z: 0.4200639}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -226074407
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -3537930349627845683, guid: 9d83bfa12037caa4aa244516160db9f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -123,8 +123,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 8.56, y: 18.73}
+  m_Offset: {x: 0, y: 2.9}
+  m_Size: {x: 8.29, y: 13.06}
   m_Direction: 0
 --- !u!114 &-870739127699492737
 MonoBehaviour:
@@ -169,5 +169,11 @@ MonoBehaviour:
   Happy: {fileID: -2495430536201457068, guid: 792ec75f61936094095d1831ec23b262, type: 3}
   Sad: {fileID: 3774851141981162309, guid: 0be837b02aa2a2845be03dc4113a8c41, type: 3}
   Dead: {fileID: -5203316406430916000, guid: 3a489c142916d34468b583986c2106c5, type: 3}
-  Order: 2
+  NeutralOrderLine: Pufferfish with kelp milk please.
+  HappySuccessLine: BEST PUFFERFISH TEA IN THE OCEAN!!!!
+  SadFailLine: Day ruined.
+  DeadPoisonLine: UEGHHHH
+  isHuman: 0
+  Order: 5
   dialogueBox: {fileID: 0}
+  gameManager: {fileID: 0}
