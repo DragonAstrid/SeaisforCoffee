@@ -71,10 +71,10 @@ PrefabInstance:
     - target: {fileID: 8515049540157775300, guid: 6f91687b6dc29c447974502be942cb46, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 6238829996584868781, guid: 2c6eb91c26af99247be1229716650eef, type: 3}
+      objectReference: {fileID: 4159115869971789054, guid: 68da4dc58b3974a0db20bef85dffc219, type: 3}
     - target: {fileID: 8929184545490620454, guid: 6f91687b6dc29c447974502be942cb46, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.84
+      value: 2.89
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
