@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      seacoffee_UI_starEmpty_0: 8252254055704584422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

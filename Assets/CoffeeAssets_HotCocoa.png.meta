@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CoffeeAssets_HotCocoa_0: 6452118071563544572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

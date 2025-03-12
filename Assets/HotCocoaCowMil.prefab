@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 991181020233255861, guid: d965795a0ca923c45b84e3f87c0407bc, type: 3}
       propertyPath: m_Name
-      value: HotCocoa
+      value: HotCocoaCowMil
       objectReference: {fileID: 0}
     - target: {fileID: 4445940647134786619, guid: d965795a0ca923c45b84e3f87c0407bc, type: 3}
       propertyPath: m_LocalScale.x
@@ -71,7 +71,7 @@ PrefabInstance:
     - target: {fileID: 8643667642673549031, guid: d965795a0ca923c45b84e3f87c0407bc, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 150506416835269727, guid: dbede3a7377c5d242aeb9b6f8be65e64, type: 3}
+      objectReference: {fileID: 6452118071563544572, guid: beee8b91c7e6e445a82ca4cc4a739f38, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

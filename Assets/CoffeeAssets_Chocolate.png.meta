@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CoffeeAssets_Chocolate_0: -8356429068058867355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
       propertyPath: Order
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
       propertyPath: SadFailLine

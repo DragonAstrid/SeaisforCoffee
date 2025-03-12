@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CoffeeAssets_Kelp_0: -6838498942707922328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
