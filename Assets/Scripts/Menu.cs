@@ -10,6 +10,9 @@ public class Menu : MonoBehaviour
 
     public string mainMenuScene;
 
+    [SerializeField]
+    public string creditsScene;
+
     public void NewGame()
     {
         SceneManager.LoadScene(newGameScene);
@@ -26,4 +29,7 @@ public class Menu : MonoBehaviour
 
         Application.Quit();
     }
+
+    public void OpenCredits()
+    //SceneManager.LoadScene(creditsScene);
 }

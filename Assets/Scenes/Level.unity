@@ -239,6 +239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newGameScene: Level
   mainMenuScene: Main Menu
+  creditsScene: 
 --- !u!114 &98315233 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4392219475099714436, guid: 6f91687b6dc29c447974502be942cb46, type: 3}

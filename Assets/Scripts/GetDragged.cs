@@ -18,6 +18,7 @@ public class GetDragged : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+
             if (mouseOver)
             {
                 dragging = true;
