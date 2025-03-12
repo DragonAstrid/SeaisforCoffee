@@ -7,7 +7,7 @@ using System.Linq;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
-    private List<ingredient> ingredients;
+    private List<Ingredient> ingredients;
 
     [SerializeField]
     private GameObject CustomerRoot;

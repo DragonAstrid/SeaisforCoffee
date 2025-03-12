@@ -5,7 +5,7 @@ using System.Linq;
 
 public class CoffeeMachine : MonoBehaviour
 {
-    List<ingredient> ingredients;
+    List<Ingredient> ingredients;
 
     [SerializeField]
     private GameObject TaffyLatteCowMilk, TaffyLatteKelpMilk;
@@ -23,7 +23,7 @@ public class CoffeeMachine : MonoBehaviour
 
     public void RecieveObject(GameObject g)
     {
-       ingredient i = g.GetComponent<ingredient>();
+       Ingredient i = g.GetComponent<Ingredient>();
         if (i != null) 
         {
         ingredients.Add(i);
@@ -37,7 +37,7 @@ public class CoffeeMachine : MonoBehaviour
 
     void Awake()
     {
-        ingredients = new List<ingredient> ();
+        ingredients = new List<Ingredient> ();
         audioSource = GetComponent<AudioSource>();
     }
 

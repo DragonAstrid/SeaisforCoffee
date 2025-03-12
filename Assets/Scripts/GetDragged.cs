@@ -13,12 +13,12 @@ public class GetDragged : MonoBehaviour
 
     private Vector2 offset;
     private bool getOffset;
-    
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-
+         
             if (mouseOver)
             {
                 dragging = true;
@@ -62,5 +62,7 @@ public class GetDragged : MonoBehaviour
     {
         mouseOver = false;
     }
+
+
 
 }

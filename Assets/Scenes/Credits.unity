@@ -188,7 +188,7 @@ Canvas:
   m_GameObject: {fileID: 234163681}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newGameScene: 
   mainMenuScene: Main Menu
-  creditsText: 
+  creditScene: 
 --- !u!1001 &794037654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -308,11 +308,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 326062991624483878, guid: ef48a1ee7cb98a04da54d641a5cae970, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 859
+      value: 834
       objectReference: {fileID: 0}
     - target: {fileID: 326062991624483878, guid: ef48a1ee7cb98a04da54d641a5cae970, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -468
+      value: -443
       objectReference: {fileID: 0}
     - target: {fileID: 326062991624483878, guid: ef48a1ee7cb98a04da54d641a5cae970, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -451,6 +451,50 @@ PrefabInstance:
     - target: {fileID: 6788213456631380427, guid: f3b5e6db45334ab43a68c9d92c17986d, type: 3}
       propertyPath: m_Name
       value: Credit text
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109338972143509527, guid: f3b5e6db45334ab43a68c9d92c17986d, type: 3}
+      propertyPath: m_text
+      value: 'Credits
+
+
+        Art, Music:
+
+        Astrid Myers
+
+
+
+        Font:
+
+        Copyright
+        (c) 2012, Sorkin Type Co (www.sorkintype.com), with Reserved Font Name ''Autour''
+
+        -----------------------------------------------------------
+
+        SIL
+        OPEN FONT LICENSE Version 1.1 - 26 February 2007
+
+        -----------------------------------------------------------
+
+
+        Pouring
+        Coffee Sound Effect:
+
+        Pouring Coffee (Several Times) by madcowzack
+        -- https://freesound.org/s/584972/ -- License: Attribution 4.0
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109338972143509527, guid: f3b5e6db45334ab43a68c9d92c17986d, type: 3}
+      propertyPath: m_margin.x
+      value: -128.20306
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109338972143509527, guid: f3b5e6db45334ab43a68c9d92c17986d, type: 3}
+      propertyPath: m_margin.y
+      value: -68.42676
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109338972143509527, guid: f3b5e6db45334ab43a68c9d92c17986d, type: 3}
+      propertyPath: m_margin.z
+      value: 15.238403
       objectReference: {fileID: 0}
     - target: {fileID: 9109338972143509527, guid: f3b5e6db45334ab43a68c9d92c17986d, type: 3}
       propertyPath: m_fontColor.b

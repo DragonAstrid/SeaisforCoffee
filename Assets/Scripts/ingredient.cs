@@ -7,13 +7,15 @@ public enum IngredientType
     Taffy, KelpMilk, CowMilk, Pufferfish, Chocolate
 }
 
-public class ingredient : MonoBehaviour
+public class Ingredient : MonoBehaviour
 {
     public IngredientType type;
 
     private Vector3 originalPosition;
 
     private GetDragged getDragged;
+
+
 
     private void Awake()
     {

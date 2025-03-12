@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6857208227693015672
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1534931159107774528, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_Name
+      value: HumanCocoa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795762596865732523, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4319611381987960508, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4338172469974965336, guid: 26414ee5397807043adb156b6a719637, type: 3}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: Sad
+      value: 
+      objectReference: {fileID: -2570063634068763904, guid: e5220aaaaa059494ba4f81845f0cc68d, type: 3}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: Dead
+      value: 
+      objectReference: {fileID: -4149428091697561305, guid: 54cd8db7b236e144981bda58818f192c, type: 3}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: Happy
+      value: 
+      objectReference: {fileID: -3560757071689889515, guid: 74364086ee42cf44b8959785000b9de0, type: 3}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: Order
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: Neutral
+      value: 
+      objectReference: {fileID: 4338172469974965336, guid: 26414ee5397807043adb156b6a719637, type: 3}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: isHuman
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: SadFailLine
+      value: I am so upset, the world is upside down.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: DeadPoisonLine
+      value: NOOOO MY ONE WEAKNESS BLEHHHH
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: HappySuccessLine
+      value: This is better than the stuff above sea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260556360141954554, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}
+      propertyPath: NeutralOrderLine
+      value: Chocolate plus milk equals heaven underwater.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1669249e904cc034182f24a6ec5f413e, type: 3}

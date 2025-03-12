@@ -10,8 +10,7 @@ public class Menu : MonoBehaviour
 
     public string mainMenuScene;
 
-    [SerializeField]
-    public string creditsScene;
+    public string creditScene;
 
     public void NewGame()
     {
@@ -31,5 +30,9 @@ public class Menu : MonoBehaviour
     }
 
     public void OpenCredits()
-    //SceneManager.LoadScene(creditsScene);
+    {
+        SceneManager.LoadScene(creditScene);
+
+    }
+
 }
