@@ -65,8 +65,8 @@ public class Customer : MonoBehaviour
                 }
                 else
                 {
-                    if (r.type == ResultType.TaffyLatteCowMilk
-                        || r.type == ResultType.PufferTeaCowMilk
+                    if (r.type == ResultType.TaffyCocoa
+                        || r.type == ResultType.HotCocoaKelpMilk
                         || r.type == ResultType.HotCocoaCowMilk)
                     {
                         spriteRenderer.sprite = Dead;
